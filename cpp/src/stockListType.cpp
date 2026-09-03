@@ -61,6 +61,7 @@ void stockListType::loadData(std::istream& infile) {
         stockType stock;
         // infile >> myStock — each row is extracted into a stock object.
         if (row >> stock) {
+            std::cout << "Loaded stock: " << stock.getSymbol() << '\n';
             insertEnd(stock);
         } else {
             std::cerr << "Skipping invalid row: " << line << '\n';
