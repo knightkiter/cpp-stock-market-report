@@ -1,0 +1,26 @@
+# C++ compiled files
+*.exe
+*.o
+*.obj
+*.out
+
+# Visual Studio build folders
+.vs/
+x64/
+Debug/
+Release/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Node and Next.js generated files
+node_modules/
+.next/
+out/
+build/
+
+# Environment and system files
+.env*
+.DS_Store
